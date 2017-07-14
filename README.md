@@ -2,3 +2,5 @@
 Portfolio of development work
 3 page portfolio includes: about, portfolio and contact.
 Created in Sublime with HTML5 and CSS3.
+
+https://user-images.githubusercontent.com/17155279/28220243-c57eac04-688c-11e7-9e74-4d59ddcf6c36.png
