@@ -117,12 +117,12 @@ header, footer {
 
 /* Name text */
 h1, h2 {
-  color: #6e7376;
+  color: #574A42;
 }
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #F2A94B;
 }
 
 /* nav link */
@@ -133,13 +133,13 @@ nav a, nav a:visited {
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: #6e7376;
-  background-color: #ffce00;
+  background-color: #FFF95A;
   border: 1px;
   border-radius: 10px;
 }
 
 .about, .portfolio, .contact {
-  background-color: rgba(0, 0, 0, 0.40);
+  background-color: rgba(0, 0, 0, 0.55);
   color: #fff;
 }
 
@@ -207,23 +207,26 @@ Div*/
 
 #work_gallery li {
   float: left;
-  max-width: 45%;
+  width: 45%;
   margin: 2.5%;
   border-radius: 10px;
-  background-color: #6e7376;
+  background-color: #EBB367;
   color: #fff;
 }
-
+ 
 #work_gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 1em;
- ;
   color: #fff;
 }
 
 #work_gallery img {
   border-radius: 10px 10px 0 0;
+}
+
+.small {
+  height: 40px;
 }
 
 /*Fixes issue with list item 
@@ -266,7 +269,7 @@ Div*/
 @media screen and (max-width: 650px){
   #work_gallery li {
     float: none;
-    max-width: 90%;
+    width: 95%;
     margin: 5%;
   }
 
@@ -278,12 +281,3 @@ Div*/
   }
 }
 
-
-/* Colors to Use??
-Irises #007849
-Starry Night #0375b4
-Sunflower #ffce00
-Smoke #6e7376 
-Powder Blue #4a8dac 
-Cotton #99ced4 
-Blush #eeb687 */
